@@ -5,6 +5,9 @@ This github features data and code for building a recomendation system. The init
  
  Task 1 File Include: 
  
+ preprocessing - preprocessing search and browsing data and merging with product metadata
+ 
+ 
  
  
  
