@@ -9,7 +9,7 @@ This github features data and code for building a recomendation system. The init
  
  gru_recsys - GRU Model Training and Evaluation
  
- 
+ xlnet_recsys - Transformer Model Training and Evaluation (Have some errors. Needs to be fixed)
  
  
  
