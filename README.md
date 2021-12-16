@@ -11,6 +11,10 @@ This github features data and code for building a recomendation system. The init
  
  xlnet_recsys - Transformer Model Training and Evaluation (Have some errors. Needs to be fixed)
  
+ schema_features - schema object necessary to train and evaluate the models
+ 
+ 
+ 
  
  
  Task 2 Files Include:
