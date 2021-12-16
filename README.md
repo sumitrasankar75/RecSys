@@ -13,7 +13,7 @@ This github features data and code for building a recomendation system. The init
  
  schema_features - schema object (text file) necessary to train and evaluate the models
  
- results - A text file to save the GRU model metrics
+ results - A text file to save the GRU model results
  
  
  Task 2 Files Include:
