@@ -7,6 +7,8 @@ This github features data and code for building a recomendation system. The init
  
  preprocessing - preprocessing search and browsing data and merging with product metadata
  
+ gru_recsys - GRU Model Training and Evaluation
+ 
  
  
  
