@@ -13,7 +13,7 @@ This github features data and code for building a recomendation system. The init
  
  docker run --name sumitra1 -it --gpus device=1 -p 8872:8872 --ipc=host -v /home/sumitra/recsys_folder/competitions/SIGIR_eCommerce_Challenge_2021:/recsys/    nvcr.io/nvidia/merlin/merlin-pytorch-training:0.6
  
- To run the preprocessing notebook: (preprocessing-Copy1-2.ipynb) 
+ To run the preprocessing notebook: (Task_1_preprocessing-Copy1-2.ipynb) 
  
  1. source /opt/conda/bin/activate
   
@@ -27,7 +27,7 @@ This github features data and code for building a recomendation system. The init
  
  6. Open in browser http://10.10.11.64:8872/
 
- 7. Go to Rec_Sys folder to run the preprocessing notebook. (preprocessing-Copy1-2.ipynb)
+ 7. Go to Rec_Sys folder to run the preprocessing notebook. (Task_1_preprocessing-Copy1-2.ipynb)
  
  The following is the container I created for model training and evaluation.
  
