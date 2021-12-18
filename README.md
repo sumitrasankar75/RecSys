@@ -5,7 +5,33 @@ This github features data and code for building a recomendation system. The init
  
  Task 1 File Include: 
  
- preprocessing - preprocessing search and browsing data and merging with product metadata
+ Task 1 files can be found in the following folder
+ 
+ /home/sumitra//recsys_folder/competitions/SIGIR_eCommerce_Challenge_2021/Rec_Sys
+ 
+ The following is the container I created for the preprocessing notebook.
+ 
+ docker run --name sumitra1 -it --gpus device=1 -p 8872:8872 --ipc=host -v /home/sumitra/recsys_folder/competitions/SIGIR_eCommerce_Challenge_2021:/recsys/    nvcr.io/nvidia/merlin/merlin-pytorch-training:0.6
+ 
+ To run the preprocessing notebook: 
+ 
+ 1. source /opt/conda/bin/activate
+  
+ 2. conda activate recsys
+ 
+ 3. docker exec -it a10ece653fd3 bash
+ 
+ 4. cd /recsys
+
+ 5. jupyter-lab --allow-root --ip='0.0.0.0' --NotebookApp.token='' --port=8872
+ 
+ 6. Open in browser http://10.10.11.64:8872/
+
+ 7. Go to Rec_Sys folder to run the preprocessing notebook.
+ 
+ 
+ 
+ 
  
  docker run --name sumitrasankarasub3 --gpus device=0 -it --ipc=host -p 8870:8870 -v /home/sumitra/recsys_folder/competitions/SIGIR_eCommerce_Challenge_2021:/recsys/ nvcr.io/nvidia/merlin/merlin-pytorch-training:21.11 /bin/bash
  
