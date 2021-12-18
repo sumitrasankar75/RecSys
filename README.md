@@ -47,7 +47,7 @@ This github features data and code for building a recomendation system. The init
  
  6. Open in browser http://10.10.11.64:8870/
 
- 7. Go to Rec_Sys folder to run the GRU model notebook. (Task_1_gru_recsys.ipynb, xlnet_recsys.ipynb)
+ 7. Go to Rec_Sys folder to run the GRU model notebook. (Task_1_gru_recsys.ipynb, Task_1_xlnet_recsys.ipynb)
  
  The transformer model has some errors and needs to be fixed.
  
