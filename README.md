@@ -7,6 +7,8 @@ This github features data and code for building a recomendation system. The init
  
  preprocessing - preprocessing search and browsing data and merging with product metadata
  
+ docker run --name sumitrasankarasub3 --gpus device=0 -it --ipc=host -p 8870:8870 -v /home/sumitra/recsys_folder/competitions/SIGIR_eCommerce_Challenge_2021:/recsys/ nvcr.io/nvidia/merlin/merlin-pytorch-training:21.11 /bin/bash
+ 
  gru_recsys - GRU Model Training and Evaluation
  
  xlnet_recsys - Transformer Model Training and Evaluation (Have some errors. Needs to be fixed)
@@ -14,6 +16,8 @@ This github features data and code for building a recomendation system. The init
  schema_features - schema object (text file) necessary to train and evaluate the models
  
  results - A text file to save the GRU model results
+ 
+ 
  
  
  Task 2 Files Include:
