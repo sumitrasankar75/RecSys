@@ -33,7 +33,7 @@ This github features data and code for building a recomendation system. The init
  
  docker run --name sumitrasankarasub3 --gpus device=0 -it --ipc=host -p 8870:8870 -v /home/sumitra/recsys_folder/competitions/SIGIR_eCommerce_Challenge_2021:/recsys/ nvcr.io/nvidia/merlin/merlin-pytorch-training:21.11 /bin/bash
  
- To run model training and evaluation notebook: () 
+ To run model training and evaluation notebook: (gru_recsys.ipynb) 
  
  1. source /opt/conda/bin/activate
   
@@ -47,11 +47,9 @@ This github features data and code for building a recomendation system. The init
  
  6. Open in browser http://10.10.11.64:8870/
 
- 7. Go to Rec_Sys folder to run the GRU model notebook. (preprocessing-Copy1-2.ipynb)
+ 7. Go to Rec_Sys folder to run the GRU model notebook. (gru_recsys.ipynb, xlnet_recsys.ipynb)
  
- gru_recsys - GRU Model Training and Evaluation
- 
- xlnet_recsys - Transformer Model Training and Evaluation (Have some errors. Needs to be fixed)
+ The transformer model has some errors and needs to be fixed.
  
  schema_features - schema object (text file) necessary to train and evaluate the models
  
