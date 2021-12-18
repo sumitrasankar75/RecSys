@@ -51,7 +51,7 @@ This github features data and code for building a recomendation system. The init
  
  The transformer model has some errors and needs to be fixed.
  
- schema_features - schema object (text file) necessary to train and evaluate the models
+ Task_1_schema_features.pb - schema object (text file) - features to train the model
  
  Task_1_results.txt - A text file to save the GRU model results
  
