@@ -31,11 +31,15 @@ This github features data and code for building a recomendation system. The init
 
  7. Go to Rec_Sys folder to run the preprocessing notebook. (Task_1_preprocessing-Copy1-2.ipynb)
  
+ All the parquet files created after running this notebook can be found in the folder /recsys/coveo_task1_v42
+ 
+ The parquet file merged_session_table.parquet can be found in this folder which is used to split into train/valid/test
+ 
  
  
  The following is the container I created for model training and evaluation.
  
- docker run --name sumitrasankarasub3 --gpus device=0 -it --ipc=host -p 8870:8870 -v         /home/sumitra/recsys_folder/competitions/SIGIR_eCommerce_Challenge_2021:/recsys/ 
+ docker run --name sumitrasankarasub3 --gpus device=0 -it --ipc=host -p 8870:8870 -v           /home/sumitra/recsys_folder/competitions/SIGIR_eCommerce_Challenge_2021:/recsys/ 
  nvcr.io/nvidia/merlin/merlin-pytorch-training:21.11 /bin/bash
  
  To run model training and evaluation notebook: (Task_1_gru_recsys.ipynb) 
@@ -53,6 +57,8 @@ This github features data and code for building a recomendation system. The init
  6. Open in browser http://10.10.11.64:8870/
 
  7. Go to Rec_Sys folder to run the GRU model notebook. (Task_1_gru_recsys.ipynb, Task_1_xlnet_recsys.ipynb)
+ 
+ The merged_session_table.parquet file has been split into train/valid/test and stored in the folder /recsys/coveo_task1_v42/sessions_by_day 
  
  The transformer model has some errors and needs to be fixed.
  
