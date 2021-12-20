@@ -78,3 +78,8 @@ This github features data and code for building a recomendation system. The init
  Task 2 Models- the truncations of the data that created the task_2 csv used for the models & Random Forest, Gradient Boost, and XG Boost used for model prediction. 
  
  task_2 - sample data set of the first 9,999 rows. (original dataset contains 214,585 rows) 
+ 
+ 
+ 
+ 
+ 
